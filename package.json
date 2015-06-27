@@ -1,0 +1,44 @@
+{
+  "name": "Tessel Fakes",
+  "version": "0.1",
+  "description": "Try out your tessel code without having an actual hardware device!",
+  "main": "tessel.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samilamti/tessel-fakes"
+  },
+  "author": {
+    "name": "Sami Lamti",
+    "email": "sami@lamti.se"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colors": "~0.6.0-1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "gitHead": "a5b3e40596baa39e0a287bfd09609fd69ceb8414",
+  "bugs": {
+    "url": "https://github.com/samilamti/tessel-fakes/issues"
+  },
+  "homepage": "https://github.com/samilamti/tessel-fakes",
+  "bundleDependencies": [
+    "colors"
+  ],
+  "_id": "tessel-fakes@0.1.0",
+  "_shasum": "c1be6228aeee7d5a669bcfe9c16e858168fe0d04",
+  "_from": "tessel-fakes@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "samilamti",
+    "email": "sami@lamti.se"
+  },
+  "maintainers": [
+    {
+      "name": "samilamti",
+      "email": "sami@lamti.se"
+    }
+  ],
+  "directories": {}
+}
