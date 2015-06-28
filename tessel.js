@@ -13,7 +13,15 @@ var colors = require('colors/safe');
     
     function led(index, state) {
         var selected = leds[index];
-        return colors[(state ? selected.color : "black")].white(selected.name); 
+        var backgroundColor = (state ? selected.color : "bgBlack");
+        var foregroundColor = "white";
+        
+        // White on Yellow looks terrible...
+        if (foregroundColor === "white" && backgroundColor === "bgYellow") {
+            return colors["yellow"]["bold"]["bgBlack"](selected.name);
+        }
+        
+        return colors[backgroundColor][foregroundColor](selected.name);
     }
     
     function log(what) {
