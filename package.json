@@ -1,6 +1,6 @@
 {
   "name": "tessel-fakes",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Try out your Tessel code without having an actual hardware device!",
   "main": "tessel.js",
   "scripts": {
